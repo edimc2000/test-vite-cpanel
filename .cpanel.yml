@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    - export PATH=$PATH:/usr/local/bin
+    - npm install
+    - npm run build
+    - /bin/cp -r dist/* /home/sites/42a/8/887b678aa4/react/
